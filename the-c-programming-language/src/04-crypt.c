@@ -4,8 +4,7 @@
 /* ROTN encryption */
 void rotn(int n) {
     int c;
-    while (c != EOF) {
-        c = getchar();
+    while ((c = getchar()) != EOF) {
         putchar(c + n);
     }
 }
